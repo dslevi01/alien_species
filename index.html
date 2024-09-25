@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mysterious Sound Recording</title>
+  <!-- Link to external CSS files -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Recording of an Alien Species</h1>
+
+    <button id="playButton">Play Sound</button>
+
+    <!-- Volume slider -->
+    <div class="slider-container">
+      <label for="volumeSlider">Volume:</label>
+      <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="0.5">
+    </div>
+  </div>
+
+  <!-- Audio player -->
+  <audio id="audioPlayer" src="assets/Sound_Of_A_Species.mp3"></audio>
+
+  <!-- Link to external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
