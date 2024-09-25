@@ -1,8 +1,28 @@
-
 @media (max-width: 600px) {
-    #playButton {
-      width: 100%;
-      font-size: 14px;
-      padding: 15px;
+    body {
+        font-size: 16px; /* Larger base font for readability */
+        padding: 10px; /* Add padding to avoid content sticking to edges */
     }
-  }
+
+    #playButton {
+        width: 100%;
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    /* Adjust other elements */
+    .container {
+        padding: 10px; /* Reduce padding for small screens */
+    }
+
+    h1, h2, h3 {
+        font-size: 1.5em; /* Ensure headers are readable */
+    }
+}
+
+@media (max-width: 400px) {
+    #playButton {
+        font-size: 12px; /* Further reduce font size for smaller screens */
+        padding: 10px; /* Adjust padding for small screens */
+    }
+}
